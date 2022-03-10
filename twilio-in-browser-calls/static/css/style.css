@@ -1,0 +1,101 @@
+/* HOME PAGE */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+div#output-selection {
+    display: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+.log-container {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    color: white;
+    background: #18345F;
+    border-radius: 5%;
+}
+
+div#log {
+    padding-top: 20px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    width: 95%;
+    height: 6.5em;
+    margin: auto;
+    overflow-y: scroll;
+    color:#18345F;
+    background: white;
+}
+
+.btn-container {
+    /*margin-top: 10px;*/
+    /*margin-bottom: 20px;*/
+}
+
+.btn-circle {
+    border: 1px solid rgba(0, 0, 0, .125);
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.keypad {
+    margin-left: auto;
+}
+
+.btn-outline-secondary {
+    height: 70px;
+    width: 75px;
+}
+
+input {
+    text-align: center;
+    background: white;
+    margin-bottom: 4px;
+    border-bottom: 1px solid black;
+    font-size: x-large;
+    border-style: outset;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ /* MODAL CALL IN PROGRESS */
+
+#callDuration {
+    margin-left: 100px;
+    font-size: 24px;
+}
+
+#div-call-in-progress {
+    margin-left: 40px;
+}
+
+#modal-call-in-progress-body {
+    background-image: url('/static/images/user.png');
+    background-size: cover;
+}
+.dialPadKeys{
+    color: white !important;
+}
+.countryCode{
+    width: 95%;
+    border-radius: 5px;
+    border-style: inset;
+    margin: 0 auto;
+    height: 30px;
+    font-weight: bolder;
+}
